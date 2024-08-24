@@ -1,11 +1,4 @@
-# Quick Order Client Starter
-
-
-Welcome to the Quick Order Client Starter repository! This project is part of the Next Level Web Development course and provides a foundational setup for integrating the AmarPay payment system into a web application. 
-
-
-This project serves as a starter pack for implementing a payment system in web applications using AmarPay, specifically designed for educational purposes in advanced web development.
-
+# Quick Order Client
 
 ### **Getting Started**
 
@@ -31,7 +24,7 @@ To get started with this project, follow these steps:
    npm install
    ```
 
-5. **Run the Application:**
+4. **Run the Application:**
 
    Start the development server with:
 
