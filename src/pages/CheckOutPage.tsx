@@ -33,8 +33,13 @@ export default function CheckOutPage() {
     };
     try {
       const res = await createOrder(data).unwrap();
+      console.log(res);
       if (res.success) {
-        window.location.href = res.data.payment_url;
+        if (res.data.payment_url) {
+          window.location.href = res.data.payment_url;
+        } else {
+          console.error("Payment URL not found in response:", res.data);
+        }
       } else {
         console.error("Order creation failed:", res.message);
       }
